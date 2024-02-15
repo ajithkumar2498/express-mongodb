@@ -1,6 +1,5 @@
 import  express  from "express";
-import UserController from '../controller/user.js'
-
+import UserController from "../controller/user1.js"
 const router = express.Router()
 
 router.get('/',UserController.getAllUsers)
